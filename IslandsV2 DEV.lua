@@ -3500,7 +3500,7 @@ WoodFarm:CreateToggle("TreeAuraToggleFlag", {
 WoodFarm:CreateSlider("TreeAuraRadiusFlag",{
     Name = "  - Radius",
     Min = 1;
-    Max = 20;
+    Max = 50;
     Default = TreeAuraToggleSettings.Radius;
     DecimalPlaces = 1;
     AllowValuesOutsideRange = false;
@@ -5866,3 +5866,4 @@ end)
 
 Window:Notify("Script injected into " ..GetOwner(Island) .. "'s Island!")
 Window:Notify('Script Successfully Loaded!')
+
